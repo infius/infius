@@ -9,12 +9,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway:500');
+
 /* var text-decoration */
 /*--
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -83,9 +85,11 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
   color: #333333;
-  padding: 10px 26px;
-  font-size: 15px;
+  padding: 15px 30px;
+  font-size: 20px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -114,25 +118,31 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #slider .block {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 45px;
-  line-height: 60px;
-  letter-spacing: 10px;
-  padding-bottom: 45px;
+      font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+
+    line-height: 1;
+    letter-spacing: 1px;
+    padding-bottom: 45px;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+
 }
 #slider .block p {
-  font-size: 23px;
-  line-height: 40px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white;
 }
 /*--
 	wrapper Start
@@ -144,6 +154,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
 }
 #intro .block p {
   color: #7B7B7B;
@@ -231,8 +243,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
-  background-position: 50% 94px;
+
+  background: url("../img/slider-bg3.jpg");
+  
   width: 100%;
   display: block;
   position: relative;
@@ -253,12 +266,15 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #feature h2 {
+  
+  color: white;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+
+  color: white;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
